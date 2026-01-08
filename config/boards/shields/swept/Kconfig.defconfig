@@ -8,6 +8,12 @@ config ZMK_KEYBOARD_NAME
 	
 config ZMK_SPLIT_BLE_ROLE_CENTRAL
 	default y
+
+config PROSPECTOR_USE_AMBIENT_LIGHT_SENSOR
+	default n
+	
+config PROSPECTOR_FIXED_BRIGHTNESS
+	default 80
 	
 endif
 
