@@ -68,6 +68,7 @@
         compatible = "zmk,keymap";
 
         Base {
+            display-name = "Base";
             // -----------------------------------------------------------------------------------------
             // |  ESC |  Q  |  W  |  E  |  R  |  T  |   |  Y  |  U   |  I  |  O  |  P  |  [  |
             // |  `   |  A  |  S  |  D  |  F  |  G  |   |  H  |  J   |  K  |  L  |  ;  |  '  |
@@ -83,6 +84,7 @@
         };
 
         raise {
+            display-name = "Number";
             // -----------------------------------------------------------------------------------------
             // |      |     |     | ARU |     |     |   |     |  7  |  8  |  9  |  0  |      |
             // |      |     | ARL | ARD | ARR |  [  |   |  ]  |  4  |  5  |  6  |  -  |      |
@@ -98,6 +100,7 @@
         };
 
         lower {
+            display-name = "Function";
             // -----------------------------------------------------------------------------------------
             // |      |  F1 |  F2 |  F3 |  F4 |     |   |     | INS | HOM | PUP | VUP |      |
             // | BTCLR|  F5 |  F6 |  F7 |  F8 | BT0 |   |     | DEL | END | PDN | VDN |      |
@@ -113,6 +116,7 @@
         };
 
         both {
+            display-name = "Misc";
             bindings = <
 &none       &none         &none         &none         &none   &none           &none  &none           &kp UP_ARROW  &none            &none  &none
 &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &none   &out OUT_TOG    &none  &kp LEFT_ARROW  &kp DOWN      &kp RIGHT_ARROW  &none  &none
@@ -122,6 +126,7 @@
         };
 
         Symbols {
+            display-name = "Symbol";
             bindings = <
 &none  &mt TILDE GRAVE  &kp LESS_THAN  &kp GREATER_THAN     &kp UNDERSCORE     &kp PIPE         &kp POUND    &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp CARET      &kp DELETE         &none
 &none  &kp EXCLAMATION  &kp ASTERISK   &mt BACKSLASH SLASH  &kp EQUAL          &kp AMPERSAND    &kp DOLLAR   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SEMICOLON  &kp DOUBLE_QUOTES  &none
