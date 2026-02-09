@@ -14,5 +14,8 @@ manifest:
     - name: zmk-driver-azoteq-iqs5xx
       remote: TooManyLs
       revision: main
+    - name: zmk-dongle-screen
+      remote: TooManyLs
+      revision: upgrade-4.1
   self:
     path: config
