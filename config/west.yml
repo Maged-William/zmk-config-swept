@@ -12,7 +12,7 @@ manifest:
       revision: v0.3
       import: app/west.yml
     - name: zmk-driver-azoteq-iqs5xx
-      remote: TooManyLs
+      remote: AYM1607
       revision: main
   self:
     path: config
