@@ -19,7 +19,7 @@
 
 &pro_micro_i2c {
     status = "okay";
-    tps43: iqs5xx@74 {
+    tps65: iqs5xx@74 {
         status = "okay";
         compatible = "azoteq,iqs5xx";
         reg = <0x74>;
@@ -46,7 +46,7 @@
     };
 };
 
-&tps43_split {
-    device = <&tps43>;
+&tps65_split {
+    device = <&tps65>;
 
 };
