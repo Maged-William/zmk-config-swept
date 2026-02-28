@@ -17,6 +17,6 @@
 		;
 };
 
-&tps43_listener {
+&tps65_listener {
     status = "okay";
 };
