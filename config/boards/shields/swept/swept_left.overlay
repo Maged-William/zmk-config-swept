@@ -22,6 +22,6 @@
     status = "disabled";
 };
 
-&tps43_split {
+&tps65_split {
     status = "disabled";
 };
